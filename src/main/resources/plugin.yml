@@ -1,0 +1,29 @@
+name: Duels
+version: '${project.version}'
+main: com.oliverstephenson.duels.DuelsPlugin
+api-version: '1.21'
+author: OliverStephenson
+description: 1v1 duels plugin with arenas, kits, and persistent stats.
+
+commands:
+  duel:
+    description: Challenge a player, or accept/deny a request.
+    usage: /duel <player> | accept | deny
+  stats:
+    description: View duel stats.
+    usage: /stats [player]
+  queue:
+    description: Join or leave the matchmaking queue.
+    usage: /queue
+  leaderboard:
+    description: View the top players by wins.
+    usage: /leaderboard
+  arenawizard:
+    description: (Admin) Set arena spawns and lobby.
+    usage: /arenawizard set <name> spawn1|spawn2
+    permission: osduels.admin
+
+permissions:
+  osduels.admin:
+    description: Access to arena setup commands.
+    default: op

@@ -1,0 +1,56 @@
+duel-request-timeout: 30
+
+lobby:
+  world: world
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+arenas:
+  classic:
+    spawn1:
+      world: world
+      x: 100.5
+      y: 65.0
+      z: 100.5
+      yaw: 180.0
+      pitch: 0.0
+    spawn2:
+      world: world
+      x: 100.5
+      y: 65.0
+      z: 120.5
+      yaw: 0.0
+      pitch: 0.0
+  bridge:
+    spawn1:
+      world: world
+      x: 200.5
+      y: 65.0
+      z: 200.5
+      yaw: 180.0
+      pitch: 0.0
+    spawn2:
+      world: world
+      x: 200.5
+      y: 65.0
+      z: 220.5
+      yaw: 0.0
+      pitch: 0.0
+  desert:
+    spawn1:
+      world: world
+      x: 300.5
+      y: 65.0
+      z: 300.5
+      yaw: 180.0
+      pitch: 0.0
+    spawn2:
+      world: world
+      x: 300.5
+      y: 65.0
+      z: 320.5
+      yaw: 0.0
+      pitch: 0.0
